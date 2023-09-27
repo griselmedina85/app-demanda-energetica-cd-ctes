@@ -32,7 +32,7 @@ plt.plot(dates, lows, c='blue', alpha=0.5)
 plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.2)
 
 # Format plot.
-title = "Datos históricos - Temperatura 1990-2020\nCorrientes"
+title = "Datos históricos - Temperatura 1991-2020\nCorrientes"
 plt.title(title, fontsize=12)
 plt.xlabel('', fontsize=10)
 fig.autofmt_xdate()
